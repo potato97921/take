@@ -1,0 +1,92 @@
+body {
+    font-family: 'Merienda', cursive;
+    padding: 0;
+    margin: 0;
+}
+
+.Top {
+    height: 100vh;
+}
+
+.Top-title {
+    text-align: center;
+    padding-top: 15vh;
+    font-size: 30px;
+}
+
+.mainContainer h2, h3{
+    text-align: center;
+    font-family: serif;
+    color: beige;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.mainContainer h2 {
+    font-size: 40px;
+}
+.mainContainer h3 {
+    padding-top: 20px;
+}
+
+.mainContainer {
+    background-color: #0bd;
+}
+
+.contentsTitle {
+    padding: 0;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.contents-img1 {
+    width: 20%;
+    height: 20%;
+    margin-left: 80px; 
+    border: double 3px bisque;
+    border-radius: 5px;
+}
+
+.contents1 {
+    display: flex;
+    margin-top: 30px;
+}
+
+.contents1 p {
+    margin-left: 10px;
+    font-family: serif;
+    color: beige;
+}
+
+.fadein {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 3s;
+}
+
+footer {
+    height: 200px;
+    background-color: antiquewhite;
+    text-align: center;
+    font-family: serif;
+}
+
+.title2 {
+    padding-top: 50px;
+}
+
+.bottom { 
+    padding-bottom: 50px;
+}
+
+footer h2 {
+    margin-top: 0;
+    padding-top: 15px;
+}
+
+.contents-text2 p {
+    margin-left: 10px;
+    font-family: serif;
+    color: beige;
+    text-align: center;  
+}
