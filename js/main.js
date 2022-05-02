@@ -2,7 +2,7 @@ jQuery(".Top").raindrops({
     color: "#0bd",
     waveHeight:350,
     canvasHeight:650,
-    frequency:6
+    frequency:8
 });
 
 $(window).scroll(function() {
